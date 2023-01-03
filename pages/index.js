@@ -18,10 +18,10 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <div className={styles.description}>
-          <p>
+          <h1>
           {session ? `Welcome ${session.user.name}`:`Please Login ` }  
             {/* <code className={styles.code}>pages/index.js</code> */}
-          </p>
+          </h1>
           <div>
             <a
               href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"

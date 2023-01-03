@@ -11,7 +11,7 @@ function Navbar() {
          <h1 className="logo">
             <p>NextAuth</p>
          </h1>
-         <ul className="main-nav">
+         <ul className={`main-nav`}>
             <li>
                <Link href="/">
                   <p>Home</p>

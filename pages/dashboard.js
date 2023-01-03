@@ -9,7 +9,7 @@ const DashBoard = () => {
       const securePage = async () => {
          const session = await getSession();
          if (!session) {
-            signIn();
+            // signIn();
          } else {
             setLoading(false);
          }
